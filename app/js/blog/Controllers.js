@@ -1,4 +1,6 @@
-angular.module('MyApp.blog').controller('BlogEntriesController', [ '$scope', function BlogEntriesController( $scope ) {
+'use strict';
+angular.module('g3cApp.blog')
+    .controller('BlogEntriesController', [ '$scope', function BlogEntriesController( $scope ) {
 		$scope.Entries = [	
 			{ text: "this is the first blog entry", 
 			  comments: [

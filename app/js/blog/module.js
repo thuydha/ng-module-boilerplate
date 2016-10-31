@@ -2,7 +2,7 @@
 
 /* Blog Module */
 
-angular.module('MyApp.blog', [])
+angular.module('g3cApp.blog', [])
 	.config(['$routeProvider', function config( $routeProvider ) {
 	  $routeProvider.when('/blog', {
 		controller: 'BlogController',

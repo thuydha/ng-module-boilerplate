@@ -1,3 +1,3 @@
-angular.module('MyApp.home').controller('HomeController', [ '$scope', function HomeController( $scope ) {
+angular.module('g3cApp.home').controller('HomeController', [ '$scope', function HomeController( $scope ) {
   
 	}]);
