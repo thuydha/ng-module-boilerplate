@@ -1,0 +1,25 @@
+<div ng-controller="traoDoiCtrl">
+	<div class="col-md-6">
+		<div class="card" ng-repeat="myVP in vpCuaToi" >
+		  <img src="{{myVP.imgURL}}" alt="Avatar" style="width:100%">
+		  <div class="container">
+		    <h4><b>{{myVP.tenVP}}</b></h4> 
+		    <p>{{myVP.moTa}}</p> 
+		  </div>
+		</div>
+	</div>
+	<div class="col-md-6">
+		<div class="card" ng-repeat="banVP in vpCuaBan" >
+		  <img src="{{banVP.imgURL}}" alt="Avatar" style="width:100%">
+		  <div class="container">
+		    <h4><b>{{banVP.tenVP}}</b></h4> 
+		    <p>{{banVP.moTa}}</p> 
+		  </div>
+		</div>
+	</div>
+
+<link rel="stylesheet" href="../css/traoDoi.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</div>
